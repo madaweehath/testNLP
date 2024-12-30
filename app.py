@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 import numpy as np # linear algebra
 import nltk
 nltk.download('punkt_tab')
-word2vec_model = Word2Vec.load('/word2vec_model.bin')  #Word2Vec vectorizer
+word2vec_model = Word2Vec.load('/word2vec_model.model')  #Word2Vec vectorizer
 
 loaded_svm_model = joblib.load('/svm_model.pkl')
 loaded_logistic_model = joblib.load('/logisticReg_model.pkl')
