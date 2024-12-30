@@ -1,6 +1,7 @@
 streamlit
 joblib
+scipy
+numpy
 gensim
 nltk
 scikit-learn
-gensim.models
