@@ -13,7 +13,6 @@ word2vec_model = Word2Vec.load('word2vec_model.bin')  #Word2Vec vectorizer
 
 loaded_svm_model = joblib.load('svm_model.pkl')
 loaded_logistic_model = joblib.load('logisticReg_model.pkl')
-loaded_rf_model = joblib.load('RandomForestClassifier_model.pkl')
 
 text=[ "الاقتصاد يتاثر بالاحداث العالمية"]
 # 111111111111111111111111111
@@ -82,11 +81,9 @@ vector = np.array([generate_average_word2vec(article, word2vec_model) for articl
 print(vector.shape)
 svm_prediction = loaded_svm_model.predict(vector)[0]
 logistic_prediction = loaded_logistic_model.predict(vector)[0]
-rf_prediction = loaded_rf_model.predict(vector)[0]
 
 print(svm_prediction )
 print(logistic_prediction )
-print(rf_prediction )
 
 st.write('Hello world!')
 
