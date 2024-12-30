@@ -11,8 +11,8 @@ word2vec_model = Word2Vec.load('/word2vec_model.bin')  #Word2Vec vectorizer
 # word2vec_model2 = Word2Vec.load('word2vec_model.bin.syn1neg.npy')  #Word2Vec vectorizer
 # word2vec_model3 = Word2Vec.load('word2vec_model.bin.wv.vectors.npy')  #Word2Vec vectorizer
 
-loaded_svm_model = joblib.load('svm_model.pkl')
-loaded_logistic_model = joblib.load('logisticReg_model.pkl')
+loaded_svm_model = joblib.load('/svm_model.pkl')
+loaded_logistic_model = joblib.load('/logisticReg_model.pkl')
 
 text=[ "الاقتصاد يتاثر بالاحداث العالمية"]
 # 111111111111111111111111111
