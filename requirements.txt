@@ -5,3 +5,4 @@ nltk
 scikit-learn
 joblib
 gensim==4.3.3
+spacy
