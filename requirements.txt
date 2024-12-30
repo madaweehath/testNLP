@@ -3,3 +3,4 @@ joblib
 gensim
 nltk
 scikit-learn
+gensim.models
