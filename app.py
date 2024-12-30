@@ -7,7 +7,7 @@ import numpy as np # linear algebra
 from sklearn.decomposition import PCA
 import nltk
 nltk.download('punkt_tab')
-word2vec_model = Word2Vec.load('word2vec_model.bin')  #Word2Vec vectorizer
+word2vec_model = Word2Vec.load('/word2vec_model.bin')  #Word2Vec vectorizer
 # word2vec_model2 = Word2Vec.load('word2vec_model.bin.syn1neg.npy')  #Word2Vec vectorizer
 # word2vec_model3 = Word2Vec.load('word2vec_model.bin.wv.vectors.npy')  #Word2Vec vectorizer
 
