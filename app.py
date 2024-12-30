@@ -74,6 +74,5 @@ if st.button("Process Text"):
         logistic_prediction = loaded_logistic_model.predict(vector)[0]
         st.write("prediction1"+svm_prediction )
         st.write("prediction2"+logistic_prediction )
-        processed_text = process_text(user_input)
     else:
         st.warning("Please enter some text to process.")
