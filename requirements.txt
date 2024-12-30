@@ -1,7 +1,7 @@
 streamlit
 joblib
 numpy
-scipy==1.9.3
 gensim==4.3.3
+scipy==1.9.3
 nltk
 scikit-learn
