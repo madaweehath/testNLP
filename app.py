@@ -11,7 +11,6 @@ word2vec_model = Word2Vec.load('/word2vec_model.bin')  #Word2Vec vectorizer
 loaded_svm_model = joblib.load('/svm_model.pkl')
 loaded_logistic_model = joblib.load('/logisticReg_model.pkl')
 
-text=[ "الاقتصاد يتاثر بالاحداث العالمية"]
 # 111111111111111111111111111
 arabic_stopwords = [
     "في", "من", "على", "إلى", "عن", "و", "لا", "ما", "لم", "لن", "إن", "أن", "لكن", "بل", "أو",
