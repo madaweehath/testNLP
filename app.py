@@ -88,28 +88,27 @@ print(svm_prediction )
 print(logistic_prediction )
 print(rf_prediction )
 
-def process_text(input_text):
-    # Example of text processing: converting to uppercase
-    return input_text.upper()
+st.write('Hello world!')
 
-def main():
-    # App title
-    st.title("Text Processing App")
 
-    # Text input from the user
-    user_input = st.text_area("Enter your text below:")
+# def main():
+#     # App title
+#     st.title("Text Processing App")
 
-    # Process text when the button is clicked
-    if st.button("Process Text"):
-        if user_input.strip():
-            # Call the processing function
-            processed_text = process_text(user_input)
-            st.subheader("Processed Text:")
-            st.write(processed_text)
-        else:
-            st.warning("Please enter some text to process.")
+#     # Text input from the user
+#     user_input = st.text_area("Enter your text below:")
 
-if __name__ == "__main__":
-    main()
+#     # Process text when the button is clicked
+#     if st.button("Process Text"):
+#         if user_input.strip():
+#             # Call the processing function
+#             processed_text = process_text(user_input)
+#             st.subheader("Processed Text:")
+#             st.write(processed_text)
+#         else:
+#             st.warning("Please enter some text to process.")
+
+# if __name__ == "__main__":
+#     main()
 
 # st.write('Hello world!')
