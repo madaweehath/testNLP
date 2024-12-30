@@ -4,7 +4,6 @@ import re
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 import numpy as np # linear algebra
-from sklearn.decomposition import PCA
 import nltk
 nltk.download('punkt_tab')
 word2vec_model = Word2Vec.load('/word2vec_model.bin')  #Word2Vec vectorizer
